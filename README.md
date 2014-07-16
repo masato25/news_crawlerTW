@@ -23,7 +23,17 @@ http://www.codedata.com.tw/database/mongodb-tutorial-1-setting-up-cloud-env/<br>
 在你的系統上如何裝memcatched?<br>
 官網有滿滿的資料,要不然可以問谷歌大神<br>
 http://memcached.org/<br>
+#conf範例
+MONGODB_HOST = '127.0.0.1'<br>
+MONGODB_PORT = 4567<br>
+MONGODB_DBNAME = 'testdb'<br>
+MONGODB_ACCOUNT = 'test'<br>
+MONGODB_PASSWD = 'test'<br>
+#memcatchd server change<br>
+lib/mem.rb
+更改 localhost:11211 到你的機器+port<br>
+def initialize(server="localhost:11211")<br>
 #目前爬蟲
-1.中時
-2.蘋果
-3.風傳媒
+1.中時<br>
+2.蘋果<br>
+3.風傳媒<br>
